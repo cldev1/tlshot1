@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "strict": true,
+    "jsx": "react-jsxdev",
+    "target": "ES2021",
+    "allowJs": true,
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

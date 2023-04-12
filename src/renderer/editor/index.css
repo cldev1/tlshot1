@@ -1,0 +1,42 @@
+/* If only this was easier to copy-paste https://twitter.com/buildsghost/status/1360343126510981122?s=20 */
+:root {
+  color-scheme: light dark;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  flex: 1;
+
+  user-select: none;
+}
+
+/* App */
+#root,
+#new-window-container {
+  flex: 1;
+}
